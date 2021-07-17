@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
   render() {
     return (
-      <header>Movie Cards Library</header>
+      <header><Link className="backToHome" to="/">Movie Cards Library</Link></header>
     );
   }
 }
