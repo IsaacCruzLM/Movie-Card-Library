@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import * as routes from './pages/index';
+import Header from './components/Header';
 
 import './App.css';
 
@@ -9,7 +10,7 @@ function App() {
   const { MovieList, NewMovie, EditMovie, MovieDetails, NotFound } = routes;
   return (
     <BrowserRouter>
-      <div>Header</div>
+      <Header />
       <Switch>
         <Route exact path="/" component={ MovieList } />
         <Route path="/movies/new" component={ NewMovie } />
