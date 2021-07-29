@@ -9,7 +9,7 @@ import './App.css';
 function App() {
   const { MovieList, NewMovie, EditMovie, MovieDetails, NotFound } = routes;
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Movie-Card-Library">
       <Header />
       <Switch>
         <Route exact path="/" component={ MovieList } />
