@@ -2,7 +2,7 @@
   "name": "sd-0x-block14-project-movie-card-library-crud",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://isaaccruzlm.github.io/Movie-Card-Library/",
+  "homepage": "http://isaaccruzlm.github.io/Movie-Card-Library",
   "dependencies": {
     "acorn": "7.1.1",
     "minimist": "1.2.3",
